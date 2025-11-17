@@ -1,0 +1,101 @@
+# 🏋️‍♂️ Gym Control
+
+O **Gym Control** é um programa em Python que cria um perfil de treino, calcula o IMC, 
+define metas fitness e gera um plano de treino personalizado com base no objetivo do usuário. 
+O sistema também simula a assinatura de diferentes planos mensais.
+
+---
+
+## 📌 Funcionalidades
+
+- Efeito de digitação interativo  
+- Coleta de dados pessoais (nome, idade, peso, altura)  
+- Cálculo de IMC com classificação automática  
+- Configuração de objetivo de treino  
+- Geração de plano semanal personalizado  
+- Recomendações baseadas na frequência de treinos  
+- Sistema simples de assinatura de planos  
+- Simulação de método de pagamento  
+- Totalmente feito em Python puro
+
+
+---
+
+🛠 Tecnologias Usadas
+
+Python 3
+
+sys
+
+time
+
+Terminal (CLI)
+
+🧮 Cálculo de IMC
+
+O programa calcula automaticamente o IMC e classifica o resultado nas faixas:
+
+Abaixo do peso
+
+Peso ideal
+
+Sobrepeso
+
+Obesidade grau 1
+
+Obesidade grau 2
+
+Obesidade grau 3
+
+Exemplos de treinos gerados:
+
+🔵 Emagrecimento
+
+Cardio (40–60 min)
+
+Treino de peito/tríceps
+
+Treino de pernas
+
+Treino de costas/bíceps
+
+🟢 Ganho de Massa
+
+Peito e tríceps
+
+Costas e bíceps
+
+Pernas e ombros
+
+Abdômen + cardio
+
+🟡 Manutenção
+
+Treino full-body alternado com descanso
+
+💳 Planos de Assinatura
+
+Bronze — R$50
+
+Prata — R$80
+
+Ouro — R$120
+
+Platina — R$200
+
+Métodos aceitos: cartão, boleto, pix.
+
+## 🚀 Como rodar o projeto
+
+1. Instale o Python (3.8+)  
+   https://www.python.org/downloads/
+
+2. Baixe ou clone o repositório:
+   ```bash
+   git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
+
+3. Entre na pasta:
+cd gym-control
+
+4. Execute:
+python main.py
