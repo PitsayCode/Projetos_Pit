@@ -1,0 +1,87 @@
+#Sistema de Login + Quiz Matemático
+
+Este projeto é um pequeno programa em Python que simula um sistema de **login com efeito de digitação** e, após a autenticação do usuário, executa um **quiz matemático** simples.
+
+É uma ótima prática para iniciantes aprenderem sobre:
+
+* Funções em Python
+* `input()`
+* Laços `while`
+* Condicionais
+* Manipulação de listas
+* Efeitos visuais no terminal
+
+---
+
+## 📌 Funcionalidades
+
+### ✅ Efeito de digitação
+
+O projeto utiliza três funções (`efeito_digitacao`, `efeito_digitacao1`, `efeito_digitacao2`) que simulam texto sendo digitado lentamente no terminal, criando uma interface mais interativa.
+
+### 🔐 Sistema de Login
+
+O programa:
+
+1. Solicita **usuário** e **senha**.
+2. Pede para repetir usuário e senha.
+3. Só permite avançar quando ambos os conjuntos coincidirem.
+4. Caso contrário, repete até estarem corretos.
+
+### 🧠 Quiz Matemático
+
+Após o login, o usuário responde três perguntas:
+
+1. **2 + 2**
+2. **5 × 3**
+3. **Raiz quadrada de 9**
+
+O quiz só termina quando todas forem respondidas corretamente.
+
+---
+
+## 🚀 Como executar
+
+Certifique-se de ter o Python instalado.
+
+### 1. Clone ou copie o código para um arquivo
+
+```
+quiz.py
+```
+
+### 2. Execute no terminal
+
+```bash
+python quiz.py
+```
+
+---
+
+## 🧩 Estrutura do Código
+
+* **Funções de efeito de digitação**: criam uma animação para melhorar a experiência.
+* **Sistema de login**: garante que o usuário confirme seus dados.
+* **Quiz**: testa conhecimentos básicos de matemática.
+
+---
+
+## 📄 Melhorias Futuras
+
+Aqui vão algumas ideias para expandir o projeto:
+
+* Adicionar mais perguntas
+* Criar um placar com pontuação
+* Implementar cores no terminal com `colorama`
+* Salvar usuários e senhas em um arquivo `.txt`
+* Criar níveis de dificuldade
+
+---
+
+## 👨‍💻 Autor
+
+Criado como exercício de lógica e interação no terminal.
+
+Victor
+---
+
